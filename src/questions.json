@@ -1,0 +1,284 @@
+[
+  {
+    "id": 0,
+    "question": "What is a data structure?",
+    "options": [
+      "A programming language",
+      "A collection of algorithms",
+      "A way to store and organize data",
+      "A type of computer hardware"
+    ],
+    "correctOption": "A way to store and organize data"
+  },
+  {
+    "id": 1,
+    "question": "What are the disadvantages of arrays?",
+    "options": [
+      "Index value of an array can be negative",
+      "Elements are sequentially accessed",
+      "Data structure like queue or stack cannot be implemented",
+      "There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size"
+    ],
+    "correctOption": "There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size"
+  },
+  {
+    "id": 2,
+    "question": "Which data structure is used for implementing recursion?",
+    "options": ["Stack", "Queue", "List", "Array"],
+    "correctOption": "Stack"
+  },
+  {
+    "id": 3,
+    "question": "The data structure required to check whether an expression contains balanced parentheses is?",
+    "options": ["Queue", "Stack", "Tree", "Array"],
+    "correctOption": "Stack"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is not an application of stack?",
+    "options": [
+      "Data Transfer between two asynchronous processes",
+      "Compiler Syntax Analyzer",
+      "Tracking of local variables at run time",
+      "A parentheses balancing program"
+    ],
+    "correctOption": "Data Transfer between two asynchronous processes"
+  },
+  {
+    "id": 5,
+    "question": "Which data structure is needed to convert infix notation to postfix notation?",
+    "options": ["Tree", "Branch", "Stack", "Queue"],
+    "correctOption": "Stack"
+  },
+  {
+    "id": 6,
+    "question": "What is the value of the postfix expression 6 3 2 4 + – *?",
+    "options": ["74", "-18", "22", "40"],
+    "correctOption": "22"
+  },
+  {
+    "id": 7,
+    "question": "What data structure would you mostly likely see in non-recursive implementation of a recursive algorithm?",
+    "options": ["Stack", "Linked List", "Tree", "Queue"],
+    "correctOption": "Stack"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following statement(s) about stack data structure is/are NOT correct?",
+    "options": [
+      "Top of the Stack always contains the new node",
+      "Stack is the FIFO data structure",
+      "Null link is present in the last node at the bottom of the stack",
+      "Linked Lists are used for implementing Stacks"
+    ],
+    "correctOption": "Stack is the FIFO data structure"
+  },
+  {
+    "id": 9,
+    "question": "The data structure required for Breadth First Traversal on a graph is?",
+    "options": ["Array", "Stack", "Tree", "Queue"],
+    "correctOption": "Queue"
+  },
+  {
+    "id": 10,
+    "question": "The prefix form of A-B/(C * D ^ E) is?",
+    "options": ["-A/B*C^DE", "-A/BC*^DE", "-ABCD*^DE", "-/*^ACBDE"],
+    "correctOption": "-/*^ACBDE"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following points is/are not true about Linked List data structure when it is compared with an array?",
+    "options": [
+      "Random access is not allowed in a typical implementation of Linked Lists",
+      "Access of elements in linked list takes less time than compared to arrays",
+      "Arrays have better cache locality that can make them better in terms of performance",
+      "It is easy to insert and delete elements in Linked List"
+    ],
+    "correctOption": "Access of elements in linked list takes less time than compared to arrays"
+  },
+  {
+    "id": 12,
+    "question": "Which data structure is based on the Last In First Out (LIFO) principle?",
+    "options": ["Tree", "Linked List", "Stack", "Queue"],
+    "correctOption": "Stack"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following application makes use of a circular linked list?",
+    "options": [
+      "Recursive function calls",
+      "Undo operation in a text editor",
+      "Implement Hash Tables",
+      "Allocating CPU to resources"
+    ],
+    "correctOption": "Undo operation in a text editor"
+  },
+  {
+    "id": 14,
+    "question": "What is a bit array?",
+    "options": [
+      "Data structure that compactly stores bits",
+      "Data structure for representing arrays of records",
+      "Array in which elements are accessed randomly",
+      "None of the above"
+    ],
+    "correctOption": "Data structure that compactly stores bits"
+  },
+  {
+    "id": 15,
+    "question": "Which of the following is not a variation of linked list?",
+    "options": [
+      "Circular Linked List",
+      "Double Linked List",
+      "Dynamic Linked List",
+      "Linear Linked List"
+    ],
+    "correctOption": "Linear Linked List"
+  },
+  {
+    "id": 16,
+    "question": "Which data structure is used to represent a hierarchical relationship between elements?",
+    "options": ["Tree", "Heap", "Graph", "Array"],
+    "correctOption": "Tree"
+  },
+  {
+    "id": 17,
+    "question": "What is a binary search tree?",
+    "options": [
+      "A tree in which each node has two children",
+      "A tree that performs binary search",
+      "A tree that is searched using a binary search algorithm",
+      "A tree with a binary representation"
+    ],
+    "correctOption": "A tree in which each node has two children"
+  },
+  {
+    "id": 18,
+    "question": "Which of the following operations cannot be performed on a binary search tree?",
+    "options": ["Insertion", "Deletion", "Search", "Traversal"],
+    "correctOption": "Traversal"
+  },
+  {
+    "id": 19,
+    "question": "What is the time complexity of search operation in a binary search tree?",
+    "options": ["O(log n)", "O(n)", "O(n log n)", "O(1)"],
+    "correctOption": "O(log n)"
+  },
+  {
+    "id": 20,
+    "question": "What is the maximum number of children that a node can have in a binary tree?",
+    "options": ["1", "2", "3", "4"],
+    "correctOption": "2"
+  },
+  {
+    "id": 21,
+    "question": "Which traversal of a binary tree prints the nodes in ascending order?",
+    "options": [
+      "Pre-order traversal",
+      "In-order traversal",
+      "Post-order traversal",
+      "Level-order traversal"
+    ],
+    "correctOption": "In-order traversal"
+  },
+  {
+    "id": 22,
+    "question": "What is a priority queue?",
+    "options": [
+      "A queue in which elements are processed based on their order of arrival",
+      "A queue in which elements are processed based on their priority",
+      "A queue that supports random access to elements",
+      "A queue that does not allow duplicate elements"
+    ],
+    "correctOption": "A queue in which elements are processed based on their priority"
+  },
+  {
+    "id": 23,
+    "question": "Which data structure is used in Dijkstra's algorithm for finding the shortest path in a graph?",
+    "options": ["Queue", "Stack", "Heap", "Tree"],
+    "correctOption": "Heap"
+  },
+  {
+    "id": 24,
+    "question": "What is a hash table?",
+    "options": [
+      "A table for storing hashed values",
+      "A data structure that uses hashing to map keys to values",
+      "A table of values that can be accessed using a hash function",
+      "A data structure that stores values in a hash-based index"
+    ],
+    "correctOption": "A data structure that uses hashing to map keys to values"
+  },
+  {
+    "id": 25,
+    "question": "What is collision resolution in hash tables?",
+    "options": [
+      "The process of mapping a key to a unique index",
+      "The process of handling situations where two keys hash to the same index",
+      "The process of resizing the hash table",
+      "The process of inserting a new key-value pair into the hash table"
+    ],
+    "correctOption": "The process of handling situations where two keys hash to the same index"
+  },
+  {
+    "id": 26,
+    "question": "Which of the following is not a type of hash function?",
+    "options": [
+      "Division method",
+      "Multiplication method",
+      "Exponential method",
+      "Universal hashing"
+    ],
+    "correctOption": "Exponential method"
+  },
+  {
+    "id": 27,
+    "question": "What is a graph?",
+    "options": [
+      "A data structure that stores a collection of elements in a linear sequence",
+      "A data structure that represents a hierarchical relationship between elements",
+      "A data structure that consists of a set of vertices and edges",
+      "A data structure that organizes elements in a two-dimensional grid"
+    ],
+    "correctOption": "A data structure that consists of a set of vertices and edges"
+  },
+  {
+    "id": 28,
+    "question": "Which of the following is not a type of graph?",
+    "options": [
+      "Directed graph",
+      "Undirected graph",
+      "Cyclic graph",
+      "Weighted graph"
+    ],
+    "correctOption": "Cyclic graph"
+  },
+  {
+    "id": 29,
+    "question": "What is a topological sort?",
+    "options": [
+      "A sorting algorithm that sorts elements based on their position in a linear sequence",
+      "A sorting algorithm that sorts elements in ascending order",
+      "A sorting algorithm that sorts elements based on their priority",
+      "A sorting algorithm that sorts vertices in a directed acyclic graph"
+    ],
+    "correctOption": "A sorting algorithm that sorts vertices in a directed acyclic graph"
+  },
+  {
+    "id": 30,
+    "question": "What is the time complexity of Dijkstra's algorithm?",
+    "options": ["O(V)", "O(V log V)", "O(E)", "O(V^2)"],
+    "correctOption": "O(V log V)"
+  },
+  {
+    "id": 31,
+    "question": "What is dynamic programming?",
+    "options": [
+      "A programming technique that divides a problem into smaller subproblems and solves each subproblem only once",
+      "A programming technique that modifies the code at runtime",
+      "A programming technique that generates random solutions to a problem",
+      "A programming technique that evaluates all possible solutions to a problem"
+    ],
+    "correctOption": "A programming technique that divides a problem into smaller subproblems and solves each subproblem only once"
+  }
+]
